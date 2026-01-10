@@ -1,79 +1,109 @@
-# ESP Buttons: End-User Feature Guide
+# 📱 ESP Buttons: Complete Feature Guide
 
-Welcome to the ESP Buttons app! This guide provides a detailed overview of how to use the various switch types available in the app to automate your home or business environment.
-
----
-
-## App interface Overview
-
-*(Placeholder for Home Screen Screenshot)*
-> **[SCREENSHOT: Main Dashboard showing active clients and switch list]**
-
-The app allows you to manage multiple devices (clients) and add different types of switches to each device based on your needs.
+Welcome to the **ESP Buttons** ecosystem! This comprehensive guide will walk you through the powerful features and intelligent switch types available in the app, designed to bring seamless automation to your smart environment.
 
 ---
 
-## Switch Types and Functionality
+## 🚀 Getting Started
 
-### 1. Binary Switch
+The ESP Buttons app is your central hub for managing IoT devices. Before diving into the specific switch types, let's look at the primary interface where you'll spend most of your time.
 
-The **Binary Switch** is the most fundamental control element. It acts just like a physical wall switch but with an added digital advantage.
+### App Interface Overview
 
-- **How it works:** Simply tap the toggle to turn your device ON or OFF instantly.
-- **Key Feature:** When the switch is ON, the app displays a real-time elapsed timer, showing exactly how long the device has been running.
-- **Use Case:** Perfect for manual control of overhead lights, fans, or any appliance where you just need a simple ON/OFF button and want to keep track of usage duration.
+![Main Dashboard](../img/main_dashboard.png)
 
-*(Placeholder for Binary Switch Screenshot)*
-> **[SCREENSHOT: Binary Switch in ON state with elapsed timer]**
+The dashboard provides a real-time status of all your connected devices (clients). From here, you can monitor connectivity, add new switches, and manage existing ones with ease.
 
 ---
 
-### 2. Delay Switch
+## ⚡ Smart Switch Types
 
-The **Delay Switch** is designed for tasks that require a device to run for a specific amount of time before automatically turning itself off.
+We offer three distinct switch types, each tailored for specific automation needs.
 
-- **How it works:** When you tap "Start", a timer dialog appears. You can set the exact duration (Hours, Minutes, Seconds) you want the device to remain active. Once the timer starts, the device turns ON and counts down.
-- **Key Feature:** It ensures you never "forget" to turn off high-power appliances.
-- **Use Case:** Ideal for charging an electric scooter for 3 hours, running a bathroom exhaust fan for 15 minutes, or operating a water pump that only needs to fill a specific tank volume.
+### 1️⃣ Binary Switch
 
-*(Placeholder for Delay Switch Screenshot)*
-> **[SCREENSHOT: Delay Switch Timer Dialog and active countdown]**
+*The classic control, redefined.*
 
----
+The **Binary Switch** provides instant, manual control over any connected device. It mimics a physical switch but adds digital reporting.
 
-### 3. Interval Switch
+| Feature | Description |
+| :--- | :--- |
+| **Instant Toggle** | Tap to turn ON/OFF with zero latency. |
+| **Usage Tracking** | Displays a real-time elapsed timer while the device is ON. |
+| **Feedback** | Visual confirmation of the current state across all connected apps. |
 
-The **Interval Switch** offers the highest level of automation, allowing you to schedule when a device should turn on and for how long. It supports two modes: **Once** and **Daily**.
+**Best For:** Lights, fans, or any appliance where you need simple manual control and want to track usage.
 
-- **How it works:**
-  - **Once Mode:** You set a "Start After" delay (e.g., in 60 seconds) and a "Duration" (how long it stays ON).
-  - **Daily Mode:** You set a specific "Start At" time (e.g., 07:30 AM) and a "Duration".
-- **Key Feature:** Advanced scheduling that manages both the "waiting" period and the "active" period automatically.
-- **Use Case:**
-  - **Once:** Setting a "delayed start" for a kitchen appliance so it finishes right when you arrive home.
-  - **Daily:** Automating a garden irrigation system to turn on every morning at 6:00 AM for 20 minutes to keep your plants healthy without manual intervention.
-
-*(Placeholder for Interval Switch Screenshot)*
-> **[SCREENSHOT: Interval Switch Schedule Dialog showing Once/Daily options]**
+![Binary Switch](../img/binary_switch.png)
 
 ---
 
-## Visual Demonstration
+### 2️⃣ Delay Switch (Timer-Based)
 
-To see these switches in action and understand the setup process step-by-step, please watch our demonstration video:
+*Set it and forget it.*
 
-[**Watch the Feature Use Cases Video Here**](https://example.com/demo-video-link)
+The **Delay Switch** is perfect for devices that should only run for a fixed duration. It prevents energy waste and ensures safety.
+
+* **How to use:** Tap "Start", set your desired duration (HH:MM:SS), and let the app handle the rest.
+* **Automatic Shut-off:** The device turns OFF exactly when the countdown reaches zero.
+* **Visual Countdown:** Stay informed with a live countdown timer on your dashboard.
+
+**Best For:** Electric vehicle charging, bathroom exhaust fans, or water pumps.
+
+![Delay Switch](../img/delay_switch.png)
+
+---
+
+### 3️⃣ Interval Switch (Scheduled)
+
+*Ultimate Automation.*
+
+The **Interval Switch** allows you to schedule operations in advance. It supports two powerful modes:
+
+#### 🕒 Once Mode
+
+Set a "Start After" delay and a "Duration". The device will wait for the specified delay, turn ON for the duration, and then turn OFF.
+*Example: Start the washing machine in 30 minutes for a 1-hour cycle.*
+
+#### 📅 Daily Mode
+
+Schedule a specific time (e.g., 06:00 AM) and a duration. The task repeats every single day.
+*Example: Water your garden every morning for 15 minutes.*
+
+| Mode | Trigger | Best Use Case |
+| :--- | :--- | :--- |
+| **Once** | Countdown Delay | One-time delayed tasks |
+| **Daily** | Specific Clock Time | Recurring daily routines |
+
+![Interval Switch Schedule](../img/interval_switch_1.png)
+![Interval Switch Control](../img/interval_switch_2.png)
 
 ---
 
-## Business & Partnership
+## 📺 Video Demo
 
-If you are interested in integrating this IoT solution into your business, white-labeling the application, or ordering custom hardware controllers compatible with this app, we are open to collaboration. Our system is scalable and can be customized for industrial automation, smart hotels, or agricultural tech.
+> [!TIP]
+> Seeing is believing! Watch the video below to see how easy it is to set up and use these switch types in real-time.
 
-**Contact Us for Business Inquiries:**
-
-- **Email:** <business@example.com>
-- **Website:** [www.example.com/business](https://example.com/business)
-- **LinkedIn:** [linkedin.com/company/iot-smart-controller](https://linkedin.com/company/iot-smart-controller)
+[**▶️ Watch the ESP Buttons Feature Tour**](https://example.com/demo-video-link)
 
 ---
+
+## 💼 Business & Partnership
+
+Are you looking to scale this solution? We offer professional services for:
+
+* **White-labeling:** Custom-branded versions of the ESP Buttons app.
+* **Bespoke hardware:** Proprietary relay controllers and IoT nodes.
+* **System Integration:** End-to-end automation for hotels, vertical farming, and smart factories.
+
+### Get in Touch
+
+* 📧 **Email:** [rajendrarajaramv@gmail.com](mailto:rajendrarajaramv@gmail.com)
+* 🌐 **Portfolio:** [iamrajendraverma.github.io](https://iamrajendraverma.github.io)
+* 👔 **LinkedIn:** [Connect on LinkedIn](https://linkedin.com/in/rajendrarajaramv)
+
+---
+*Developed with passion for the IoT community.*
+
+**© 2026 Rajendra Verma**
