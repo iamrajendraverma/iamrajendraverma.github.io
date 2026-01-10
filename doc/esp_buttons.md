@@ -10,7 +10,7 @@ The ESP Buttons app is your central hub for managing IoT devices. Before diving 
 
 ### App Interface Overview
 
-![Main Dashboard](../img/main_dashboard.png)
+<img src="../img/main_dashboard.png" width="33%" alt="Main Dashboard">
 
 The dashboard provides a real-time status of all your connected devices (clients). From here, you can monitor connectivity, add new switches, and manage existing ones with ease.
 
@@ -34,7 +34,7 @@ The **Binary Switch** provides instant, manual control over any connected device
 
 **Best For:** Lights, fans, or any appliance where you need simple manual control and want to track usage.
 
-![Binary Switch](../img/binary_switch.png)
+<img src="../img/binary_switch.png" width="33%" alt="Binary Switch">
 
 ---
 
@@ -50,7 +50,7 @@ The **Delay Switch** is perfect for devices that should only run for a fixed dur
 
 **Best For:** Electric vehicle charging, bathroom exhaust fans, or water pumps.
 
-![Delay Switch](../img/delay_switch.png)
+<img src="../img/delay_switch.png" width="33%" alt="Delay Switch">
 
 ---
 
@@ -75,8 +75,10 @@ Schedule a specific time (e.g., 06:00 AM) and a duration. The task repeats every
 | **Once** | Countdown Delay | One-time delayed tasks |
 | **Daily** | Specific Clock Time | Recurring daily routines |
 
-![Interval Switch Schedule](../img/interval_switch_1.png)
-![Interval Switch Control](../img/interval_switch_2.png)
+<div style="display: flex; gap: 10px;">
+  <img src="../img/interval_switch_1.png" width="33%" alt="Interval Switch Schedule">
+  <img src="../img/interval_switch_2.png" width="33%" alt="Interval Switch Control">
+</div>
 
 ---
 
