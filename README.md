@@ -2,14 +2,14 @@
 
 ### Sr. Technology Consultant | Android Expert | IoT Hobbyist
 
-I am a seasoned Mobile Architect with over **10+ years of experience** building high-scale applications. Currently, I specialize in **Jetpack Compose**, **Kotlin Multiplatform (KMP)**, and bridging the gap between mobile software and **IoT hardware**.
+I am a seasoned **Mobile Architect** with over **10+ years of experience** building high-scale applications. Currently, I specialize in **Jetpack Compose**, **Kotlin Multiplatform (KMP)**, and bridging the gap between mobile software and **IoT hardware**.
 
 ---
 
 ### 🚀 At a Glance
 
 - 📱 **Mobile:** Expert in Android (Kotlin/Java), Jetpack Compose, and KMP.
-- 🛠️ **IoT:** Hobbyist developer working with ESP32, ESP8266, MQTT, and Matter protocol.
+- 🛠️ **IoT:** Hobbyist developer working with ESP32, ESP8266, MQTT, and the Matter protocol.
 - 🎓 **Education:** M.Sc. in Computer Science (Manipal University, 2025) & M.Sc. in Bioinformatics.
 - 📍 **Location:** Bhopal, India.
 
@@ -23,48 +23,46 @@ I am a seasoned Mobile Architect with over **10+ years of experience** building 
 | **Mobile Frameworks** | Jetpack Compose, KMP, Android SDK/NDK, Flutter |
 | **IoT & Hardware** | ESP32-C3, ESP8266, Arduino, LoRa, Zigbee, Matter Protocol |
 | **Cloud & Backend** | AWS (Lambda), Firebase, Google Cloud, Node-RED, ESP-RainMaker |
-| **Architecture** | MVVM, MVI, Clean Architecture, Spec-driven development (Antigravity) |
-| **Tools** | Android Studio, Cursor, GitHub Copilot, CI/CD (GitHub Actions) and Google Antigravity |
+| **Architecture** | MVVM, MVI, Clean Architecture, Spec-driven development |
+| **Tools** | Android Studio, Cursor, GitHub Copilot, CI/CD (GitHub Actions), Google Antigravity |
 
 ---
 
 ### 💼 Professional Journey
 
-#### **Sr. Technology Consultant @ Techment** *April 2023 — Present*
+#### **Sr. Technology Consultant @ Techment** | *April 2023 — Present*
 
-- Leading Scrum events and mentoring junior developers in a Material 3/Jetpack Compose ecosystem.
-- Driving **Legacy to KMP migrations**, reducing code duplication across platforms.
-- Implementing **BLE 6.0 (5.4)** integrations for medical grade hardware (Gluco-meters).
+- Facilitating Scrum events and mentoring junior developers within a **Material 3 / Jetpack Compose** ecosystem.
+- Driving **Legacy-to-KMP migrations**, significantly reducing code duplication across platforms.
+- Implementing **BLE 5.4/6.0** integrations for medical-grade hardware (Glucometers).
 
-#### **Mobile Technology Consultant @ JStech Alliance**
-
-*Jan 2020 — June 2021*
+#### **Mobile Technology Consultant @ JStech Alliance** | *Jan 2020 — June 2021*
 
 - Scaled **15+ applications** across 8 countries.
-- Integrated NVR/DVR camera streaming SDKs for IoT surveillance solutions.
+- Integrated NVR/DVR camera streaming SDKs for complex IoT surveillance solutions.
 
 ---
 
 ### 🧪 Featured Projects
 
-#### 💡 ESP Buttons
+#### 💡 ESP Buttons [**(Detailed Guide)**](doc/esp_buttons.md)
 
 - **Hardware:** Custom 4-relay board module.
 - **Software:** Android companion app built with **Jetpack Compose & WebSockets**.
-- You can easily control your relays using four types of switchs (Binary switch, delay switch,and interval switch).
-- it is a server less application you can get real time status of your relays connected with MQTT clients.
-- set delay and interval to the switch using app.
-- **Automation:** Integrated with Alexa via Node-RED .
+- **Features:** Control relays using four switch types (Binary, Delay, and Interval).
+- **Connectivity:** A serverless application providing real-time relay status via MQTT.
+- **Automation:** Integrated with Alexa via Node-RED.
 
 #### ⌚ Time Tracker (Alexa Skill)
 
-- An AI-voice assistant skill to manage workplace productivity, soon to be integrated with HR tools like Keka.
-- you can puch in punch out and get your total hours worked in a day using voice commands.
+- An AI voice assistant skill designed to manage workplace productivity.
+- **Functionality:** Use voice commands to "punch in" or "punch out" and calculate total daily work hours.
+- **Roadmap:** Integration with HR tools like Keka is currently in progress.
 
 #### 📡 MQTT Scheduler
 
-- A python based scheduler to control your relays using MQTT.
-- it is a server less application you can get real time status of your relays connected with MQTT clients.
+- A Python-based scheduler designed to control relays via the MQTT protocol.
+- Provides real-time status updates for all connected MQTT clients in a serverless environment.
 
 ---
 
@@ -81,9 +79,3 @@ I am a seasoned Mobile Architect with over **10+ years of experience** building 
 - 📧 **Email:** [rajendrarajaramv@gmail.com](mailto:rajendrarajaramv@gmail.com)
 - 🔗 **LinkedIn:** [linkedin.com/in/rajendrarajaramv](https://linkedin.com/in/rajendrarajaramv)
 - 🐦 **GitHub:** [github.com/iamrajendraverma](https://github.com/iamrajendraverma)
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iamrajendraverma&show_icons=true&theme=tokyonight" alt="Rajendra's Stats" />
-</p>
