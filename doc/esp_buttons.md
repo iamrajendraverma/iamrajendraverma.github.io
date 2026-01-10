@@ -82,6 +82,16 @@ Schedule a specific time (e.g., 06:00 AM) and a duration. The task repeats every
 
 ---
 
+## 🎙️ Voice Assistant Integration
+
+Take your automation to the next level with hands-free control. The ESP Buttons ecosystem is fully compatible with **Amazon Alexa** via **Node-RED**.
+
+* **Seamless Bridge**: Use Node-RED to connect your MQTT devices to the Alexa ecosystem.
+* **Voice Control**: Simply say *"Alexa, turn on the water pump"* or *"Alexa, turn off the bedroom lights."*
+* **Smart Routines**: Integrate your custom ESP hardware into your existing smart home routines for complete automation.
+
+---
+
 ## 📺 Video Demo
 
 > [!TIP]
