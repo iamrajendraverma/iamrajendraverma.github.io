@@ -4,7 +4,7 @@ Welcome to the **ESP8266 Client**! This guide provides everything you need to kn
 
 ---
 
-## 🚀 1. Firmware Installation
+## 🚀 Firmware Installation
 
 Get your device up and running in minutes using our web-based installer.
 
@@ -17,7 +17,7 @@ Get your device up and running in minutes using our web-based installer.
 
 ---
 
-## 📶 2. WiFi Configuration
+## 📶 WiFi Configuration
 
 If the device cannot find a saved WiFi network, it will automatically enter **Configuration Mode**.
 
@@ -28,7 +28,7 @@ If the device cannot find a saved WiFi network, it will automatically enter **Co
 
 ---
 
-## 🔘 3. Resetting WiFi Settings
+## 🔘 Resetting WiFi Settings
 
 Need to move the device to a new network? You can easily reset the stored credentials.
 
@@ -37,7 +37,7 @@ Need to move the device to a new network? You can easily reset the stored creden
 
 ---
 
-## 💡 4. Status Indicators (Built-in LED)
+## 💡 Status Indicators (Built-in LED)
 
 The onboard LED (D4/GPIO 2) provides instant feedback on the system's state:
 
@@ -49,7 +49,7 @@ The onboard LED (D4/GPIO 2) provides instant feedback on the system's state:
 
 ---
 
-## 🔌 5. Relay & Pin Layout
+## 🔌 Relay & Pin Layout
 
 The firmware controls 4 relays. These pins use **Active Low** logic, compatible with standard relay modules.
 
@@ -65,7 +65,7 @@ The firmware controls 4 relays. These pins use **Active Low** logic, compatible 
 
 ---
 
-## 📱 6. ESP Buttons App Integration
+## 📱 ESP Buttons App Integration
 
 This firmware is designed to work seamlessly with the **ESP Buttons** mobile app.
 
