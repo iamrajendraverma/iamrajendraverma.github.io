@@ -6,7 +6,7 @@ Welcome to the **ESP Buttons** ecosystem! This comprehensive guide will walk you
 
 ## 🚀 Getting Started
 
-The ESP Buttons app is your central hub for managing IoT devices. Before diving into the specific switch types, let's look at the primary interface where you'll spend most of your time.
+The ESP Buttons app is your central hub for managing IoT devices. Before diving into the specific switch types, let's look at the primary interface where you'll spend most of your time. Request the download link from our support team.
 
 ### App Interface Overview
 
