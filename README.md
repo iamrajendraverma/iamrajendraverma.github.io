@@ -73,3 +73,11 @@ I am a seasoned **Mobile Architect** with over **10 years of experience** buildi
 - **Compatibility:** Fully integrated with the **ESP Buttons** companion app.
 
 ---
+
+### Get in Touch
+
+- 📧 **Email:** [rajendrarajaramv@gmail.com](mailto:rajendrarajaramv@gmail.com)
+- 🌐 **Portfolio:** [iamrajendraverma.github.io](https://iamrajendraverma.github.io)
+- 👔 **LinkedIn:** [Connect on LinkedIn](https://linkedin.com/in/rajendrarajaramv)
+
+---

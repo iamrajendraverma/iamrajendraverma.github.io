@@ -118,4 +118,4 @@ Are you looking to scale this solution? We offer professional services for:
 ---
 *Developed with passion for the IoT community.*
 
-**© 2026 Rajendra Verma**
+**© 2026 Rajendra Verma** | [Release Notes](rn_esp_b.md)
