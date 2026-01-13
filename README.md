@@ -53,7 +53,7 @@ I am a seasoned **Mobile Architect** with over **10 years of experience** buildi
 - **Connectivity:** A serverless application providing real-time relay status via MQTT.
 - **Automation:** Integrated with Alexa via Node-RED.
 
-#### ⌚ Time Tracker (Alexa Skill)
+#### ⌚ Time Tracker (Alexa Skill) [**(Detailed Guide)**](doc/time_tracker.md)
 
 - An AI voice assistant skill designed to manage workplace productivity.
 - **Functionality:** Use voice commands to "punch in" or "punch out" and calculate total daily work hours.
