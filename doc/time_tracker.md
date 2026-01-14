@@ -42,3 +42,8 @@ Experience the app on your Android device. Download the latest build directly vi
 Install the skill directly to your Alexa account to start using voice commands:
 
 [**Install Alexa Skill**](https://www.amazon.com/dp/B0G7GFNGNG)
+
+---
+*Developed with passion for the IoT community.*
+
+**© 2026 Rajendra Verma** | [Release Notes](rn_tt.md)

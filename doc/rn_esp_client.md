@@ -1,43 +1,53 @@
 # Release Notes
 
-## [1.0.0] - 2026-01-11
+## Version 1.0.0 (Initial Release)
 
 Initial release of the ESP8266 client firmware and companion app integration.
 
-### 🚀 Highlights
+### 🚀 Key Features
 
-- **Quad-Relay Support:** Control up to 4 independent water valves or electrical devices.
-- **Dynamic Switch Types:** Support for Binary, Delay, and Interval switches to suit different automation needs.
-- **Real-time Status Monitoring:** Live MCU status updates directly in the companion app.
-- **Effortless WiFi Setup:** Built-in Captive Portal for easy network configuration.
+* **Quad-Relay Support**
+  * Control up to 4 independent water valves or electrical devices.
 
-### ✨ New Features
+* **Dynamic Switch Types**
+  * Support for Binary, Delay, and Interval switches to suit different automation needs.
 
-#### 🔧 Hardware Control
+* **Real-time Status Monitoring**
+  * Live MCU status updates directly in the companion app.
 
-- Support for 4 Output Pins: **D1 (GPIO 5)**, **D2 (GPIO 4)**, **D6 (GPIO 12)**, and **D7 (GPIO 13)**.
-- **Active Low Logic:** Compatible with most standard relay modules.
-- **One-Touch Reset:** Hold button **D3** for 3 seconds to clear WiFi credentials and enter configuration mode.
+* **Effortless WiFi Setup**
+  * Built-in Captive Portal for easy network configuration.
 
-#### 📱 ESP Buttons App Integration
+### 🔧 Hardware Control
 
-- **Binary Switches:** Standard ON/OFF control for immediate action.
-- **Delay Switches:** Set a timer to automatically turn a valve OFF after a specified duration.
-- **Interval Switches:** Programmable schedules for "Once" or "Daily" operations with configurable intervals and delays.
-- **Auto-Discovery:** MCU boards are automatically listed in the client list for easy setup.
+* **Output Pins Support**
+  * Supports D1 (GPIO 5), D2 (GPIO 4), D6 (GPIO 12), and D7 (GPIO 13).
+  * Active Low Logic compatible with most standard relay modules.
 
-#### 📡 Connectivity & Status
+* **One-Touch Reset**
+  * Hold button **D3** for 3 seconds to clear WiFi credentials and enter configuration mode.
 
-- **MQTT Based Communication:** Fast and reliable remote control over the internet.
-- **LED Indicators:**
-  - **Fast Blinking:** Connecting to WiFi.
-  - **Slow Blinking:** Configuration Mode active.
-  - **Solid ON:** Connected and ready.
+### 📱 App Integration
 
-### 📝 Configuration Patterns
+* **Switch Control**
+  * **Binary Switches**: Standard ON/OFF control for immediate action.
+  * **Delay Switches**: Timer-based auto-OFF after a specified duration.
+  * **Interval Switches**: Programmable schedules for "Once" or "Daily" operations.
 
-- Integrated support for the new MQTT topic pattern for multi-device management.
-- Persistent storage for schedules and configurations.
+* **Auto-Discovery**
+  * MCU boards are automatically listed in the client list for easy setup.
 
----
-*For more details on how to use these features, refer to the [User Guide](user_guide.md).*
+### 📡 Connectivity
+
+* **MQTT Communication**
+  * Fast and reliable remote control over the internet.
+  * New topic pattern support for multi-device management.
+
+* **LED Indicators**
+  * **Fast Blinking**: Connecting to WiFi.
+  * **Slow Blinking**: Configuration Mode active.
+  * **Solid ON**: Connected and ready.
+
+### 📥 Get Started
+
+* *For more details on how to use these features, refer to the [User Guide](time_tracker.md).*
