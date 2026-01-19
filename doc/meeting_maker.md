@@ -1,4 +1,4 @@
-# AI-Powered Meeting Recorder: Development Roadmap (2026)
+# Meeting Maker
 
 This document outlines the phased development plan for the meeting-maker-android application, leveraging state-of-the-art on-device machine learning and cloud transcription services.
 

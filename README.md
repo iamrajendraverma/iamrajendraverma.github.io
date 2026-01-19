@@ -74,9 +74,9 @@ I am a seasoned **Mobile Architect** with over **10 years of experience** buildi
 
 ### Meeting Maker [**(Detailed Guidep)**](doc/meeting_maker.md)
 
--- **Client** A client is developed with **Jetpack Compose**. It is a basic app that allows users to record their meetings and upload them to a server. **Ktor** is used for uploading the recording to the server.
+- **Client** A client is developed with **Jetpack Compose**. It is a basic app that allows users to record their meetings and upload them to a server. **Ktor** is used for uploading the recording to the server.
 
--- **Server** A server is developed with **Python**. It is a basic server that allows users to upload their recording(mp3 files) and process them into  well organized meeting notes using **FastAPI** and **OpenAI** or **Gemini**.
+- **Server** A server is developed with **Python**. It is a basic server that allows users to upload their recording(mp3 files) and process them into  well organized meeting notes using **FastAPI** and **OpenAI** or **Gemini**.
 
 ---
 
