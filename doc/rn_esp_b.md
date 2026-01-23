@@ -21,6 +21,59 @@ We are excited to announce the first official release of the **ESP Button** app!
   * **User-Centric UI**: Sleek, intuitive design built with Jetpack Compose.
   * **Easy Setup**: Streamlined process for adding and configuring new switches.
 
+---
+
+## Version 1.1.0 (Added a Hotel Management usages)
+
+In the previous version we have introduce the types of ESP buttons (Binary Switch, Delay Switch, Interval Switch). In this version we have added a new feature to the app which allows users to manage their hotel rooms and devices from a single interface.
+
+### 🚀 Key Features
+
+* **Hotel Management**
+  * **Room Management**: A guest can control the devices of their room from a single interface.
+  * **Device Management**: A desk manager can control the guest device and room from a single interface.
+  * **User Management**: An admin can control the guest and desk manager from a single interface.
+
+### Room Management
+
+* A guest can add control of room devices from its mobile using app.
+* He/She can control the devices in their room using app.
+* He/She can add  the switches control from its mobile using app.
+
+### Screenshots
+
+<img src="../img/esp_button_20260123_095210.png" width="33%" alt="Main Dashboard">
+<img src="../img/esp_button_20260123_094606.png" width="33%" alt="Main Dashboard">
+
+### Device Management
+
+* A desk manager can add control of guest devices from its mobile using app.
+* He/She can add and remove room switch control from from guest mobile.
+* A desk manager can rename the devices in the network
+* A desk manager can add a new switch controller
+
+### Screenshots
+
+<img src="../img/esp_button_20260123_114650.png" width="33%" alt="Main Dashboard">
+<img src="../img/esp_button_20260123_114712.png" width="33%" alt="Main Dashboard">
+<img src="../img/esp_button_20260123_114753.png" width="33%" alt="Main Dashboard">
+<img src="../img/esp_button_20260123_114812.png" width="33%" alt="Main Dashboard">
+
+### User Management
+
+* Admin can do everything, he/she can active/deactive guest, desk manager and room switch.
+* He/She can control the devices in their room using app.
+* He/She can add and remove guest room switch control from guest mobile.
+* He/She an enable or disable any device.
+* He/She can rename any device.
+
+### Screenshots
+
+<img src="../img/esp_button_20260123_145234.png" width="33%" alt="Main Dashboard">
+<img src="../img/esp_button_20260123_145305.png" width="33%" alt="Main Dashboard">
+<img src="../img/esp_button_20260123_145336.png" width="33%" alt="Main Dashboard">
+<img src="../img/esp_button_20260123_145358.png" width="33%" alt="Main Dashboard">
+
 ### 📥 Get Started
 
 * Ensure your MCU is flashed with the compatible firmware and connected to your MQTT broker.
