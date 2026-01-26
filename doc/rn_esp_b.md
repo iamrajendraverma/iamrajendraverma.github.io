@@ -79,3 +79,13 @@ In the previous version we have introduce the types of ESP buttons (Binary Switc
 * Ensure your MCU is flashed with the compatible firmware and connected to your MQTT broker.
 * Add your first device on the dashboard and start automating!
 * *Feedback*: If you encounter any issues or have feature requests, please reach out via our support channels.
+
+---
+
+### Download App
+
+[📥 Download App via Firebase App Distribution](https://appdistribution.firebase.google.com/testerapps/1:941011959406:android:94a4bd2782af638519f07f/releases/4ueudro5gq3a8?utm_source=firebase-console)
+
+### Downloadd the firmware for ESP8266
+
+[📥 Download Firmware for ESP8266 via Google Drive](https://docs.google.com/document/d/1zNpHHE4jZYYcqp8Y4Tb9Hc9s4fT87I9Gq0UzAZnMMXs/edit?usp=sharing)
