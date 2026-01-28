@@ -11,9 +11,9 @@ The meeting maker app  is doing the recording of the meeting  and send it to the
 
 ### App Interface Overview
 
-<img src="../img/meeting_maker_20260128_202538.png" width="33%" alt="Meeting Maker">
-<img src="../img/meeting_maker_20260128_202636.png" width="33%" alt="Meeting Maker">
-<img src="../img/meeting_maker_20260128_202732.png" width="33%" alt="Meeting Maker">
+<img src="../img/meeting_maker_20260128_202538.png" width="25%" alt="Meeting Maker">
+<img src="../img/meeting_maker_20260128_202636.png" width="25%" alt="Meeting Maker">
+<img src="../img/meeting_maker_20260128_202732.png" width="25%" alt="Meeting Maker">
 
 Dasboard is the main screen of the app. It has the following features:
 
