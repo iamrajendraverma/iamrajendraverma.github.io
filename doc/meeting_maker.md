@@ -1,72 +1,50 @@
-# Meeting Maker
+# Meeting Maker 📱
 
-This document outlines the phased development plan for the meeting-maker-android application, leveraging state-of-the-art on-device machine learning and cloud transcription services.
-
----
-
-## 🚀 Phase 1: Core Android Development (The Recorder)
-
-*Objective: Build a robust, high-quality audio recording engine and management system.*
-
-### 🎨 UI/UX Design
-
-- **Primary Interface**: A minimalist, intuitive design featuring a prominent **"Record"** button.
-- **Visual Feedback**: Real-time waveform visualization (utilizing libraries like **Amplituda**) to indicate active recording.
-- **Archive View**: A clean, searchable list of saved recordings with basic metadata.
-
-### 🔐 System Integration
-
-- **Permissions**: Implementation of granular permission logic for `RECORD_AUDIO`.
-- **Background Persistence**: Robust **Foreground Service** implementation to ensure uninterrupted recording across app switches.
-
-### 🎙️ Audio Engine
-
-- **Implementation**: `MediaRecorder` API for standard usage or `AudioRecord` for raw PCM data analysis.
-- **Formats**: High-fidelity `.m4a` or `.wav` storage options.
-
-### 📂 Storage Architecture
-
-- **Metadata Management**: **Room Database** to store title, timestamps, duration, and file paths.
-- **File System**: Compliance with **Scoped Storage API** for secure and organized audio file handling.
+Meeting Maker(AI initiative) is a android app that records the meeting and converts the audio to text using cloud transcription services.
+It will also generate the summary of the meeting and provide the action items.
 
 ---
 
-## 🧠 Phase 2: Intelligence & Transcription
+## 🚀 Getting Started
 
-*Objective: Transform raw audio into actionable digital content.*
+The meeting maker app  is doing the recording of the meeting  and send it to the server for processing. The server is using the cloud transcription services to convert the audio to text and generate the summary of the meeting. **whisper-large-v3-groq** is used for transcription and in the next version we will use **LLM** to generate the summary of the meeting.
 
-### ✍️ Speech-to-Text (STT) Integration
+### App Interface Overview
 
-- **Cloud Solutions (High Accuracy)**: Integration with **OpenAI Whisper API** or **Google Cloud Speech-to-Text** for superior accuracy and speaker diarization.
-- **On-Device Solutions (Privacy)**: Optional **TensorFlow Lite** or **Vosk** support for offline, private transcription.
+<img src="../img/meeting_maker_20260128_202538.png" width="33%" alt="Meeting Maker">
+<img src="../img/meeting_maker_20260128_202636.png" width="33%" alt="Meeting Maker">
+<img src="../img/meeting_maker_20260128_202732.png" width="33%" alt="Meeting Maker">
 
-### 🤖 Summarization Engine
+Dasboard is the main screen of the app. It has the following features:
 
-- **LLM Integration**: Processing transcriptions through **Gemini** or **GPT-4o**.
-- **Deliverables**:
-  - Concise executive summaries.
-  - Categorized action items.
-  - Identification of mentioned participants.
+- Record Meeting
+- Transcription list
+- Recording list  
+- Logout
+- Offline mode
+- Manual syncing
+- Auto syncing
+- Footer with version and build number
+
+## 📺 Video Demo
+
+> Seeing is believing! Watch the video below.
+
+[**▶️ Watch the Meeting Maker Demo**](https://example.com/demo-video-link)
+
+## 💼 Business & Partnership
+
+Are you looking to scale this solution? We offer professional services for:
+
+- **White-labeling:** Custom-branded versions of the Meeting Maker app.
+
+### Get in Touch
+
+- 📧 **Email:** [rajendrarajaramv@gmail.com](mailto:rajendrarajaramv@gmail.com)
+- 🌐 **Portfolio:** [iamrajendraverma.github.io](https://iamrajendraverma.github.io)
+- 👔 **LinkedIn:** [Connect on LinkedIn](https://linkedin.com/in/rajendrarajaramv)
 
 ---
+*Developed with passion for the AI community.*
 
-## ✨ Phase 3: Advanced Features & Optimization
-
-*Objective: Enhance productivity and professional utility.*
-
-### 👥 Speaker Identification
-
-- **Diarization**: Advanced processing to attribute text to specific individuals (e.g., *"Person A: [Text]... Person B: [Text]..."*).
-
-### 🔍 Search & Indexing
-
-- **Content Discovery**: Full-text search capability across all recorded audio transcriptions.
-- **Tagging**: Keyword and context-based organization.
-
-### ☁️ Cloud Synchronization
-
-- **Ecosystem Integration**: Automated sync with **Google Drive** or **Dropbox** for cross-device accessibility.
-
-### 🔖 Real-time Highlighting
-
-- **Interactive Bookmarking**: One-tap "bookmarking" during live recording to flag critical moments for prioritied AI summarization.
+**© 2026 Rajendra Verma** | [Release Notes](rn_meeting_maker.md) | 📥 [Download Meeting Maker](https://appdistribution.firebase.google.com/testerapps/1:941011959406:android:08965a8ab1c7d32019f07f/releases/64jrinqpeuslo?utm_source=firebase-console)
