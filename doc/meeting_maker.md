@@ -11,9 +11,9 @@ The meeting maker app  is doing the recording of the meeting  and send it to the
 
 ### App Interface Overview
 
-<img src="../img/meeting_maker_20260128_202538.png" width="25%" alt="Meeting Maker">
-<img src="../img/meeting_maker_20260128_202636.png" width="25%" alt="Meeting Maker">
-<img src="../img/meeting_maker_20260128_202732.png" width="25%" alt="Meeting Maker">
+<img src="../img/meeting_maker_20260128_202538.png" width="30%" alt="Meeting Maker">
+<img src="../img/meeting_maker_20260128_202636.png" width="30%" alt="Meeting Maker">
+<img src="../img/meeting_maker_20260128_202732.png" width="30%" alt="Meeting Maker">
 
 Dasboard is the main screen of the app. It has the following features:
 
@@ -25,6 +25,13 @@ Dasboard is the main screen of the app. It has the following features:
 - Manual syncing
 - Auto syncing
 - Footer with version and build number
+
+## 💡Usages
+
+- **Students** Students can use this app to record their Lectures and convert it into a well organized notes.
+- **Teachers** Teachers can use this app to record their Lectures and convert it into a well organized notes.
+- **Advocates** Advocates can use this app to record their meetings with the clients and convert it into a well organized draft to prepare the PIL.
+- **Doctors** Doctors can use this app to record their meetings with the patients and convert it into a well organized draft to prepare the medical report.
 
 ## 📺 Video Demo
 
