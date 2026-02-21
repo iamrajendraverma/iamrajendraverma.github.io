@@ -78,6 +78,10 @@ I am a seasoned **Mobile Architect** with over **10 years of experience** buildi
 
 - **Server** A server is developed with **Python**. It is a basic server that allows users to upload their recording(mp3 files) and process them into  well organized meeting notes using **FastAPI** and **whisper-large-v3-groq** model. In the future, it will be enhanced to generate action items from the meeting notes.
 
+##### 📱 Child Care  [**(Detailed Guide)**](doc/child_care.md)
+
+- **Child Care**  is a mobile app that is developed in flutter. It is a app which used a child cryping voice and  it predict what are the reason of child cry. It uses **librosa library** to extract features from the audio and then uses a pre-traineed **llama-3.3-70b-versatile** model to predict the reason of child cry.
+
 ---
 
 ### Get in Touch
