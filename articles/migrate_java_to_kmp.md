@@ -6,6 +6,10 @@ Migrating an old java written android app to kotlin multiplatform is a process t
 
 ## Stragies
 
+<div align="center">
+<img src="../img/piramid.png" width="50%" alt="Main Dashboard">
+</div>
+
 ### 1. The strategy "Bottom-Up Migration"
 
 Unlike a standard Android refactor, a KMP migration moves horizontally across the stack. You start at the data layer and work your way up to the ViewModel.
@@ -30,6 +34,10 @@ The easiest "wins" are code blocks with no Android dependencies (no Context, no 
 
 Legacy Java code often has android.os or java.io imports scattered everywhere. KMP handles this using the expect/actual mechanism.
 
+<div align="center">
+<img src="../img/actuals.png" width="50%" alt="Main Dashboard">
+</div>
+
 - ##### **The Logic**: You define an expect class/function in the Common module (the interface) and provide an actual implementation in the Android and iOS modules
 
 - ##### **Example**: If you have a legacy Java utility that uses Android.util.Log, you define a common Logger interface. The Android "actual" uses the old Java code, while the iOS "actual" uses os_log
@@ -46,6 +54,10 @@ This is the most complex phase. In a modern KMP architecture, the ViewModel (or 
 
 #### Phase 5 : Migration Roadmap Table
 
+<div align="center">
+<img src="../img/cheat_sheet.png" width="50%" alt="Main Dashboard">
+</div>
+
 | Component | Legacy (Java/Android) | Modern (KMP Replacement) |
 |---|---|---|
 | Language | Java | Kotlin |
@@ -58,6 +70,11 @@ This is the most complex phase. In a modern KMP architecture, the ViewModel (or 
 ### 6. The "Golden Rule" for Zero Downtime
 
 **Don't delete the Java code yet.**
+
+<div align="center">
+
+<img src="../img/zero_down.png" width="50%" alt="Main Dashboard">
+</div>
 
 Keep your MainActivity.java and your legacy navigation. Use the Bridge Pattern:
 
