@@ -87,3 +87,5 @@ Keep your MainActivity.java and your legacy navigation. Use the Bridge Pattern:
 Migrating a legacy Java Android app to Kotlin Multiplatform is a significant undertaking, but by following a structured, bottom-up approach, you can minimize risk and maximize the benefits of code sharing. The key is to move one layer at a time, starting with the infrastructure and data layers, and gradually working your way up to the UI. By following the strategies outlined in this guide, you can successfully migrate your legacy Java Android app to Kotlin Multiplatform and reap the benefits of code sharing across multiple platforms.
 
 But my migration journey was different.This I learn from my mistakes.
+
+back to main page [here](https://iamrajendraverma.github.io/)
