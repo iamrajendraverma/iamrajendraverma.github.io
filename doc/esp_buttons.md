@@ -97,7 +97,7 @@ Take your automation to the next level with hands-free control. The ESP Buttons 
 > [!TIP]
 > Seeing is believing! Watch the video below to see how easy it is to set up and use these switch types in real-time.
 
-[**▶️ Watch the ESP Buttons Feature Tour**](https://example.com/demo-video-link)
+[**▶️ Watch the ESP Buttons Feature Tour**](https://youtube.com/shorts/QrSqOXUbCcc?si=aMg4K4SOs_mapqAd)
 
 ---
 
